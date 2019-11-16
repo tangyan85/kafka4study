@@ -1,10 +1,10 @@
-一、安装JAVA JDK
+#一、安装JAVA JDK
 1、下载安装包
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 注意：根据32/64位操作系统下载对应的安装包
 2、添加系统变量：JAVA_HOME=C:\Program Files (x86)\Java\jdk1.8.0_144
 
-二、安装ZooKeeper
+#二、安装ZooKeeper
 1、 下载安装包
 http://zookeeper.apache.org/releases.html#download
 2、 解压并进入ZooKeeper目录，笔者：D:\Kafka\zk\conf
@@ -16,7 +16,7 @@ http://zookeeper.apache.org/releases.html#download
 8、 打开新的cmd，输入“zkServer“，运行Zookeeper
 9、 命令行提示如下：说明本地Zookeeper启动成功
 
-三、安装Kafka
+#三、安装Kafka
 1、 下载安装包
 http://kafka.apache.org/downloads
 注意要下载二进制版本
@@ -28,7 +28,7 @@ http://kafka.apache.org/downloads
 7、 进入Kafka安装目录D:\software\kafka，按下Shift+右键，选择“打开命令窗口”选项，打开命令行，输入：
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 
-四、测试
+#四、测试
  zookeeper-server-start.bat ..\..\config\zookeeper.properties
  kafka-server-start.bat ..\..\config\server.properties
  
