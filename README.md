@@ -32,3 +32,7 @@
 3.  创建主题，进入Kafka安装目录D:\Kafka\kafka_2.12-0.11.0.0，按下Shift+右键，选择“打开命令窗口”选项，打开命令行，输入：.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test0811
 4. 创建生产者，进入Kafka安装目录D:\Kafka\kafka_2.12-0.11.0.0，按下Shift+右键，选择“打开命令窗口”选项，打开命令行，输入：.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic test0811
 5. 创建消费者，进入Kafka安装目录D:\Kafka\kafka_2.12-0.11.0.0，按下Shift+右键，选择“打开命令窗口”选项，打开命令行，输入：.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test0811 --from-beginning
+
+# 五、代码测试
+1. 执行producer
+2. 执行consumer
